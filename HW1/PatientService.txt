@@ -1,0 +1,34 @@
+List <Patient> patientList = new ArrayList<>();
+//create list of patients
+
+public Patient createPatient(Patient patient){
+	patientList.add(student);
+	return student;
+}
+
+//read list of patients
+
+public List<Patient> findAllPatients(){
+	return patientList;
+}
+
+//update a patient by id
+public void updatePatient(Integer id, Patient patient){
+	for(int = 0; i < patientList.size(); i++){
+		if(patientList.get(i).getID().equals(id){
+			patientList.set(i, patient);
+		}
+	
+	}
+
+}
+
+//delete list of patients
+public void deletePatient(Integer id){
+	for(int = 0; i < patientList.size(); i++){
+		if(patientList.get(i).getID() == id){
+			patientList.remove(i);
+		}
+	}
+}
+

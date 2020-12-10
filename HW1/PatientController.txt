@@ -1,0 +1,34 @@
+@PostMapping("api/v1/patients")
+public Patient createPatient(@RequestBody Patient patient){
+
+	return patientServices.createPatient(patient);
+
+}
+
+@GetMapping("api/v1/patients")
+public List<Patient> findAllPatients(){
+	return patientServices.findAllPatients();
+}
+
+
+@PutMapping("api/v1/patients/{patientId")
+public void updatePatient(@PathVariable("patientid") Integer id, @RequestBody Student student){
+
+	patientServices.updatePatient(id, patient)
+
+}
+
+
+@DeleteMapping("api/v1/patients/{patientId}")
+public void deletePatient(@PathVariable("patientid") Integer id){
+
+	patientServices.deletePatient(id);
+
+}
+
+@GetMapping("api/v1/patients/{illness}")
+public List<Patient> findPatientsByIllness(@PathVariable("illness") String illness){
+
+	
+
+}
