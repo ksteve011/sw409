@@ -1,0 +1,6 @@
+//id, name, disease, age, doctor's name)
+001, Mark, pneumonia, 37, Dr. Smith
+002, Ada, stroke, 67, Dr. Chiu
+003, Carmen, liver, 56, Dr. Smith
+004, Tim, celiac, 75, Dr. Rosa
+005, Adam, diabetes, 50, Dr. Chiu
