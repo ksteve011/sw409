@@ -1,1 +1,1 @@
-https://javastudentproj.herokuapp.com
+https://javastudentproj.herokuapp.com/
